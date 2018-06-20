@@ -1,0 +1,13 @@
+{
+    "name": "gbtux/user-bundle",
+    "description": "Symfony Security User Bundle",
+    "type": "bundle",
+    "require": {
+        "symfony/framework-bundle": "^4.1"
+    },
+    "autoload": {
+      "psr-4": {
+          "Gbtux\\UserBundle\\": "src/"
+      }
+    }
+}
